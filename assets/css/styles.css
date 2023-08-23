@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@200;400&display=swap');
+
+
+html {
+    font-size: 16px;
+}
+
+.header {
+    background-color: cornflowerblue;
+    background-image: url("../img/header_wine.png");
+    background-position: center center;
+    background-size: cover;
+    height: 450px;
+}
+
+.h1-header {
+    font-family: 'Pacifico', cursive;
+    font-size: 4.5rem;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0px;
+}
+
+.h2-header {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 0px;
+}
+
+.caja-1 {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.caja-2 {
+    /* background-color: blueviolet; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+    /* background-color: chartreuse; */
+    padding-left: 3em;
+    padding-right: 3em;
+    align-items: center;
+}
+
+.texto {
+    /* background-color: chocolate; */
+    padding: 1.5em;
+    width: 60%;
+}
+
+.texto-h {
+    font-family: 'Neuton', serif;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.texto-p1 {
+    font-family: 'Neuton', serif;
+    font-size: 1.5em;
+    font-weight: 200;
+    margin: 0px;
+    text-align: justify;
+}
+
+.texto-p2 {
+    font-family: 'Neuton', serif;
+    font-size: 1.5em;
+    font-weight: 200;
+    margin: 0;
+    text-align: justify;
+    margin-right: 1.5em;
+}
+
+.footer {
+    background-color: rgb(152, 218, 238);
+}
+
+.p-footer {
+    font-family: 'Neuton', serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
